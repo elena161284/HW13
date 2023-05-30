@@ -7,6 +7,6 @@ package HW13;
             this.name = name;
             this.surName = surName;
         }
-        public String getName() {return this.name;}
-        public String getSurName() {return this.surName;}
+        String getName() {return this.name;}
+        String getSurName() {return this.surName;}
     }
