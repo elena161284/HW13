@@ -14,10 +14,10 @@ public class HW13 {
         fmd3.setYear(1872);
         System.out.println("fmd3.getYear()= " + fmd3.getYear());
 
-        if (fmd1.equals(fmd3)) {
+        if (fmd1.equals(fmd3) && (author.equals(author1))) {
             System.out.println("Это разны книги");
         } else {
-            System.out.println("Это одинаковые книги");
+            System.out.println("Это один и тот же автор, но разные книги");
         }
     }
 }
