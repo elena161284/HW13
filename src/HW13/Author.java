@@ -2,15 +2,25 @@ package HW13;
 
 import java.util.Objects;
 
-public class Author{
-        private final String name;
-        private final String surName;
-        public Author (String name, String surName) {
-            this.name = name;
-            this.surName = surName;
-        }
-        String getName() {return this.name;}
-        String getSurName() {return this.surName;}
+public class Author {
+    private final String name;
+    private final String surName;
+
+    public Author(String name, String surName) {
+        this.name = name;
+        this.surName = surName;
+    }
+
+    String getName() {
+        return this.name;
+    }
+
+    String getSurName() {
+        return this.surName;
+    }
+    public String toString() {
+        return this.name + " "+ this.surName;
+    }
 
     @Override
     public boolean equals(Object o) {

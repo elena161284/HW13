@@ -30,8 +30,7 @@ public class Book {
     }
 
     public String toString() {
-        return "Название " + this.title + " автор " + this.author.getName() + " " +
-                this.author.getSurName() + " дата " + this.year;
+        return "Название " + this.title + " автор " + this.author + " дата " + this.year;
     }
 
     @Override
